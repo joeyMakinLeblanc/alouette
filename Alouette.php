@@ -7,7 +7,7 @@ class Alouette {
 	 * @return string
 	 */
 	static public function titre($oiseau, $qualite) {
-		return 'Alouette, gentille Alouette';
+		return ''.$oiseau.''.$qualite.'';
 	}
 	/** Méthode chanson
 	 * Retourne la chanson au complet dans un div.chanson
@@ -24,7 +24,7 @@ class Alouette {
 		$resultat .= '<div class="strophe">';
 		$resultat .= '<div class="refrain">';
 		$resultat .= '<div class="appel">';
-		$resultat .= '<div>Alouette, gentille Alouette</div>';
+		$resultat .= '<div>'.$oiseau.', '.$qualite.'</div>';
 		$resultat .= '<div>Alouette, je te plumerai.</div>';
 		$resultat .= '</div>';
 		$resultat .= '<div class="reponse">';

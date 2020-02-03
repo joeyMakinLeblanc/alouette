@@ -1,6 +1,6 @@
 <?php
-$oiseau    = 'Alouette';
-$qualite   = 'gentille';
+$oiseau    = 'Bum';
+$qualite   = 'Ass';
 $action    = 'te plumerai';
 $membres[] = 'la tête';
 $membres[] = 'le bec';
