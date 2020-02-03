@@ -1,4 +1,5 @@
 <?php
+
 $oiseau    = 'Alouette';
 $qualite   = 'gentille';
 $action    = 'te plumerai';
